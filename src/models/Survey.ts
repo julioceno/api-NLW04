@@ -8,7 +8,7 @@ class Survey {
     readonly id: string; // o valor do id é definido pelo contrutor que está no final da classe
 
     @Column() // se o nome da sua coluna for igual ao atributo  não é necessário passar nada nos params
-    title: String;
+    title: string;
 
     @Column()
     description: string;
