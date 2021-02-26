@@ -40,7 +40,10 @@ class SendMailService {
 
         console.log("message sent: %s", message.messageId)
         console.log("Preview URL %s", nodemailer.getTestMessageUrl(message))
+
+     
     }
+
 
 }
 

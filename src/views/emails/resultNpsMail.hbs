@@ -1,0 +1,41 @@
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    strong {
+        width: 350px;
+        text-align: center;
+    }
+
+    .nps-container {
+        background: #8257e6;
+        padding: 10px 20px;
+        border-radius: 6px;
+        color: #f1f1f1;
+    }
+
+    .nps-container span {
+        font-weight: bold;
+    }
+
+</style>
+
+
+<div class="container">
+    <label>Recebemos o seu Email <strong>{{ name }}</strong> e Vinhemos te Agradecer</label>
+
+    <h3>Você fez a diferença!</h3>
+    <br/>
+    <strong>{{description}}</strong>
+
+    <br/>
+    <div class="nps-container"> Cerca de <span> {{nps}}% </span> das pessoas recomendam o nlw</div>
+
+    <br/>
+    <br/>
+
+    <h3> Equipe | <strong>NLW</strong></h3>
+</div>
